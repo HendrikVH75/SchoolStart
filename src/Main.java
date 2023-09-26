@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Menge der Baguettes: ");
         baguetteMenge = scan.nextDouble();
 
-        // Grundfläche = Pi * Radius(Quadrat)!
+        // Grundfläche = Pi * Radius(Quadrat)!!!
         baguetteGrundflaeche = Math.PI * Math.pow( baguetteRadius, 2);
         System.out.println("Grundfläche des Baguette: " + Math.ceil(baguetteGrundflaeche));
 
